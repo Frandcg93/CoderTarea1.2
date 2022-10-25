@@ -1,0 +1,248 @@
+/********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: aquamarine;
+
+}
+                        /*****--ENCABEZADO--*****/
+nav{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 27, 96);
+    font-weight: 500;
+    height: 100px;
+    box-shadow: 0px 15px 25px  rgb(32, 27, 96);
+    height: 206px;
+}
+
+nav div.logoinicial{
+    background-color: rgb(32, 27, 96);
+    color: white;
+    position: fixed;  
+    width: 100vw;
+}
+
+nav a{
+    background-color: rgb(32, 27, 96);
+    color: white;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a h2{
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgb(42, 190, 244), -2px -2px 5px rgb(42, 190, 244) ;
+}
+
+a img{
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+ul.menu_inicial{
+    margin: 0;
+    padding: 114px;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 2px;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+    font-family: cursive;
+    color:black;
+    text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+    font-size: 50px;
+}
+
+h1.back-img{
+    height: 317px;
+    width: 100vw;
+    background-image: url(../img/Logo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/********************---MAIN---********************/
+.parrafomain{
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 35px;
+    font-weight:700;
+}
+
+.sectionmain{
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.articulomain{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid blue;
+    height: 130px;
+    width: 200px;
+    padding: 40px;
+    background-color:midnightblue;
+    border-radius: 30px;
+    color: white;
+}
+
+.articulomain a{
+    font-size:25px;
+    text-decoration: none;
+    color: black;
+}
+
+/********************---FOOTER---********************/
+footer{
+    background-color: rgb(32, 27, 96);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+footer ul.ultimo_menu{
+    display: flex;
+}
+footer img.footer-img{
+    height: 35px;
+    padding: 15px;
+}
+
+
+/********************---VISTA MOBILE (min-width: 480-HORIZONTAL)---********************/
+@media (min-width: 480px){
+
+    /*****--header--*****/
+    h1.back-img{
+        height: 476px;
+    }
+
+    /*****--main--*****/
+    section.sectionmain{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .articulomain{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: 1px solid blue;
+        height: 300px;
+        width: 127px;
+        padding: 40px;
+        background-color:midnightblue;
+        border-radius: 30px;
+    }
+
+    a.navarticulo{
+        align-items: center;
+    }
+    
+}
+
+
+/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    h1.back-img{
+        height: 595px;
+    }
+
+    .parrafomain{
+        margin-bottom: 40px;
+        padding: 50px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .articulomain{
+        height: 351px;
+        width: 175px;
+        font-size: 20px;
+        /* color: white; */
+    }
+
+    .articulomain a{
+        font-size: 30px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 800 X 600 -HORIZONTAL)---********************/
+@media (min-width: 800px){
+    h1.back-img{
+        height: 793px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    nav {
+        height: 353px;
+        
+    }
+
+    a h2.empresa{
+        font-size: 55px;
+    }
+
+    a img.imagen{
+        height: 100px;
+    }
+
+    ul.menu_inicial{
+        padding: 180px;
+    }
+
+    a.lista_inicial{
+        padding: 4px;
+        font-size: 25px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+
+@media (min-width: 1024px){
+    h1.back-img{
+        height: 1015px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
+
+/*---VISTA DE TABLET 1024-HORIZONTAL---*/
+/* @media (min-width: ){
+    
+} */
+
+
+
+
+/*---VISTA  DESKTOP 1200---*/
+/* @media (min-width: ){
+
+} */
