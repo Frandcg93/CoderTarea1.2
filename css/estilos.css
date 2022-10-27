@@ -195,14 +195,29 @@ footer img.footer-img{
 @media (min-width: 800px){
     h1.back-img{
         height: 793px;
+        font-size: 114px;
     }
-}
+
+    section.sectionmain{
+        display: block;
+    }
+
+    article.articulomain{
+        width: 666px;
+        height: 125px;
+        margin: 25px;
+    }
+
+    a.navarticulo{
+        height: 0px;
+    }
+} 
 
 /********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
 
 @media (min-width: 600px){
     nav {
-        height: 353px;
+        height: 430px;
         
     }
 
@@ -227,22 +242,38 @@ footer img.footer-img{
 /********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
 
 @media (min-width: 1024px){
+    ul.menu_inicial{
+        padding: 213px;
+    }
+
+    h1.imagen{
+        font-size: 135px;
+    }
     h1.back-img{
         height: 1015px;
     }
+
+    article.articulomain{
+        width: 886px;
+    }
+
+    .articulomain p{
+        text-align: center;
+        font-size: 22px;
+    }
 }
 
-/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
 
-/*---VISTA DE TABLET 1024-HORIZONTAL---*/
-/* @media (min-width: ){
-    
-} */
+/********************---VISTA  DESKTOP (min-width:1200 - HORIZONTAL)---********************/
+@media (min-width: 1200px){
+    section.sectionmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* height: 904px; */
+    }
+    /* article.articulomain{
+        width: 886px;
+    } */
 
-
-
-
-/*---VISTA  DESKTOP 1200---*/
-/* @media (min-width: ){
-
-} */
+}
