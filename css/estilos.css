@@ -88,7 +88,9 @@ h1.back-img{
 .sectionmain{
 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 .articulomain{
@@ -129,6 +131,21 @@ footer img.footer-img{
     padding: 15px;
 }
 
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+/*Telefono Modernos Regular*/
+@media (min-width: 402px){
+    .sectionmain{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .articulomain{
+        width: 265px;
+        height: 100px;
+    }
+}
 
 /********************---VISTA MOBILE (min-width: 480-HORIZONTAL)---********************/
 @media (min-width: 480px){
