@@ -218,3 +218,29 @@ p.goycochea{
     width: 319px;
     height: 402px;
 }
+
+/********************---VISTA MOBILE (min-width: 500 x 320- HORIZONTAL)---********************/
+@media (min-width: 500px){
+    div.ubicasion{
+        text-align-last: center;
+    }
+    .mapa{
+        width: 470px;
+    }
+}
+
+
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+@media (min-width: 402px){
+    .mapa{
+        width: 394px;
+        height: 489px;
+    }
+}
+
+/********************---VISTA MOBILE (min-width: 700 x 402-VERTICAL)---********************/
+@media (min-width: 700px){
+    .mapa{
+        width: 689px;
+    }
+}
