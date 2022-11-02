@@ -197,7 +197,7 @@ h2.encontranos{
     font-size: 30pt;
     font-weight: 700;
     color: black;
-    text-shadow: -3px -2px 8px blue;
+    text-shadow: 3px 2px 6px blue, -3px -2px 6px blue;
 }
 
 a.link_ubicasion{
@@ -205,13 +205,13 @@ a.link_ubicasion{
 }
 
 p.goycochea{
-    color: black;
     padding: 30px;
     font-size: 13pt;
     margin: 0;
     text-align: center;
     border-style: outset;
     border-width: 9px;
+    border-color: darkslateblue;
 }
 .mapa{
     padding-top: 70px;
@@ -232,6 +232,9 @@ p.goycochea{
 
 /********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
 @media (min-width: 402px){
+    div.ubicasion{
+        text-align: center;
+    }
     .mapa{
         width: 394px;
         height: 489px;
