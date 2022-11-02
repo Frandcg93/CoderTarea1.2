@@ -184,18 +184,37 @@ footer img.footer-img{
 @media (min-width: 1200px){
 }
 
-/********************---                                   INDEX                                              ---*******************/
+/********************---                  -------        INDEX             --------                  ---*******************/
 
-/********************---                                   UBICANOS                                              ---********************/    
+
+
+/********************---             --------         UBICANOS         --------                         ---********************/    
 /********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
+/*****--MAIN--*****/
 h2.encontranos{
     padding-top: 160px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30pt;
     font-weight: 700;
+    color: black;
+    text-shadow: -3px -2px 8px blue;
+}
+
+a.link_ubicasion{
+    padding-top: 25px;
+}
+
+p.goycochea{
+    color: black;
+    padding: 30px;
+    font-size: 13pt;
+    margin: 0;
+    text-align: center;
+    border-style: outset;
+    border-width: 9px;
 }
 .mapa{
-    padding-top: 26px;
+    padding-top: 70px;
     width: 319px;
     height: 402px;
 }
