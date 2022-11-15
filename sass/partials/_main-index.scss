@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+
+
+/********************---MAIN---********************/
+
+.parrafomain{
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight:700;
+}
+
+.articulomain{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid blue;
+    padding: 40px;
+    background-color:midnightblue;
+    border-radius: 30px;
+    color: white;
+}
+
+/********************---FOOTER---********************/
+// footer{
+//     background-color: rgb(32, 27, 96);
+//     height: 90px;
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 75px;
+//     align-items: center;
+
+//     ul.ultimo_menu{
+//         display: flex;
+//     }
+
+//     img.footer-img{
+//         height: 35px;
+//     }
+// }
+
+/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
+@media (min-width: 640px){
+    h1{
+        font-size: 90px;
+    }
+    h1.back-img{
+        height: 636px;
+    }
+    .parrafomain{
+        padding-top: 40px;
+    }
+    .articulomain{
+        padding: 20px;
+    }
+}
+
+
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+/*Telefono Modernos Regular*/
+@media (min-width: 402px){
+    .sectionmain{
+        padding-top: 20px;
+    }
+}
+
+/********************---VISTA MOBILE (min-width: 480-HORIZONTAL)---********************/
+@media (min-width: 480px){
+    /*****--main--*****/
+    .parrafomain{
+        font-size: 20px;
+    }
+}
+
+
+/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    h1.back-img{
+        height: 595px;
+    }
+
+    .parrafomain{
+        padding-top: 80px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 800 X 600 -HORIZONTAL)---********************/
+@media (min-width: 800px){
+    h1.back-img{
+        height: 793px;
+    }
+} 
+
+/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    .parrafomain{
+        padding-top: 90px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+
+@media (min-width: 1024px){
+}
+
+
+/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+@media (min-width: 1200px){
+}
