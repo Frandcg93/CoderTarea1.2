@@ -1,2 +1,13 @@
-@use './partials/header';
+@use './partials/header' ;
 
+@use './partials/main-index';
+
+@use './partials/main-productos';
+
+@use './partials/main-contacto';
+
+@use './partials/main-quienessomos';
+
+@use './partials/main-ubicanos';
+
+@use './partials/footer';
