@@ -1,0 +1,84 @@
+/********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
+/*****--MAIN--*****/
+h2.encontranos{
+    padding-top: 160px;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 700;
+    color: black;
+    text-shadow: 3px 2px 6px blue, -3px -2px 6px blue;
+}
+
+a.link_ubicasion{
+    padding-top: 25px;
+}
+
+p.goycochea{
+    color: black;
+    padding: 30px;
+    font-size: 13pt;
+    margin: 0;
+    text-align: center;
+    border-style: outset;
+    border-width: 9px;
+    border-color: darkslateblue;
+}
+.mapa{
+    padding-top: 70px;
+    width: 319px;
+    height: 402px;
+}
+
+/********************---VISTA MOBILE (min-width: 500 x 320- HORIZONTAL)---********************/
+@media (min-width: 500px){
+    div.ubicasion{
+        text-align-last: center;
+    }
+    .mapa{
+        width: 470px;
+    }
+}
+
+
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+@media (min-width: 402px){
+    div.ubicasion{
+        text-align: center;
+    }
+    .mapa{
+        width: 394px;
+        height: 489px;
+    }
+}
+
+/********************---VISTA MOBILE (min-width: 700 x 402-HORIZONTAL)---********************/
+@media (min-width: 700px){
+    .mapa{
+        width: 689px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    .mapa{
+        width: 557px;
+        height: 652px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+
+@media (min-width: 1024px){
+    .mapa{
+        width: 1003px;
+    }
+}
+
+
+/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+@media (min-width: 1200px){
+    .mapa{
+        width: 1170px;
+    }
+}
