@@ -31,20 +31,6 @@ a {
     }
 }
 
-// a h2{
-//     font-weight: 600px;
-//     font-size: 35px;
-//     text-shadow: 2px 2px 5px rgb(42, 190, 244), -2px -2px 5px rgb(42, 190, 244) ;
-//     margin: 0px;
-//     color: white;
-// }
-
-// a img{
-//     height: 60px;
-//     margin-right: 10px;
-//     border-radius: 50px;
-// }
-
 div.nav_menu{
     flex-direction: row-reverse;
 }
@@ -89,5 +75,12 @@ h1.back-img{
 @media (min-width: 402px){
     h1.back-img{
         width: 421px;
+    } 
+}
+
+/********************---VISTA MOBILE (min-width: 450-VERTICAL)---********************/
+@media (min-width: 450px){
+    h1.back-img{
+        width: 450px;
     } 
 }

@@ -75,6 +75,12 @@ h1.back-img {
     width: 421px;
   }
 }
+/********************---VISTA MOBILE (min-width: 450-VERTICAL)---********************/
+@media (min-width: 450px) {
+  h1.back-img {
+    width: 450px;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -303,8 +309,7 @@ footer ul.ultimo_menu img.facebook {
 }
 footer ul.ultimo_menu img.instagram {
   padding: 10px;
-  background-image: url(../../img/colores-de-intagram.jpg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to top right, yellow 10%, red 40%, blue);
   background-position: center;
   background-size: 55px;
 }
