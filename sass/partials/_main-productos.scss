@@ -20,6 +20,10 @@ div.titulo{
 
 section.carruseles{
     padding-top: 45px;
+    .w-100 {
+        width: 321px;
+        height: 302px;
+    }
     
     div.a_bebidas{
         background-color: white;
