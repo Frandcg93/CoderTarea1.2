@@ -66,8 +66,9 @@ h1.back-img{
     background-image: url(../img/Logo1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
     width: 320px;
+    background-origin: content-box;
+    width: 100vw;
 }
 
 /********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
@@ -87,6 +88,13 @@ h1.back-img{
 @media (min-width: 460px){
     h1.back-img{
         width: 460px;
+    } 
+}
+
+/********************---VISTA MOBILE (min-width: 480-VERTICAL)---********************/
+@media (min-width: 480px){
+    h1.back-img{
+        width: 480px;
     } 
 }
 
