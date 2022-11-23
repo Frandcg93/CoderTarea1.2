@@ -1,3 +1,10 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 3;
+}
+
 nav{
     background-color: rgb(32, 27, 96);
 }
@@ -74,4 +81,5 @@ h1.back-img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    width: 320px;
 }

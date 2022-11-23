@@ -1,0 +1,38 @@
+//              TARJETAS                //
+/********************---VISTA MOBIL (min-width: 320 x 640 - VERTICAL)---********************/
+body.productos{
+    background-color: black;
+}
+
+div.titulo{
+    background-color: black;
+    // padding-top: 40px;
+    // padding-bottom: 60px;
+    padding-top: 125px;
+    padding-bottom: 166px;
+    
+    h1.titulo_producto{
+        padding-top: 138px;
+        font-size: 60px;
+        font-weight: 600;
+    }
+}
+
+section.carruseles{
+    padding-top: 45px;
+    
+    div.a_bebidas{
+        background-color: white;
+        padding-top: 33px;
+        padding-bottom: 25px;
+        a h3.bebidas{
+            color: black;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    
+    div.carrucel{
+        padding-top: 96px;
+    }
+}

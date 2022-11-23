@@ -1,3 +1,10 @@
+header {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  z-index: 3;
+}
+
 nav {
   background-color: rgb(32, 27, 96);
 }
@@ -58,6 +65,7 @@ h1.back-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  width: 320px;
 }
 
 body {
@@ -143,6 +151,39 @@ body {
 }
 /********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
 /********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+/********************---VISTA MOBIL (min-width: 320 x 640 - VERTICAL)---********************/
+body.productos {
+  background-color: black;
+}
+
+div.titulo {
+  background-color: black;
+  padding-top: 125px;
+  padding-bottom: 166px;
+}
+div.titulo h1.titulo_producto {
+  padding-top: 138px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+section.carruseles {
+  padding-top: 45px;
+}
+section.carruseles div.a_bebidas {
+  background-color: white;
+  padding-top: 33px;
+  padding-bottom: 25px;
+}
+section.carruseles div.a_bebidas a h3.bebidas {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+section.carruseles div.carrucel {
+  padding-top: 96px;
+}
+
 /********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
 /*****--MAIN--*****/
 h2.encontranos {
