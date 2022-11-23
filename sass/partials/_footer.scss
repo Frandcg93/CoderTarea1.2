@@ -1,17 +1,43 @@
 footer{
     background-color: rgb(32, 27, 96);
-    height: 90px;
+    height: 142px;
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 166px;
+    padding-top: 24px;
     align-items: center;
-
+     
     ul.ultimo_menu{
         display: flex;
-    }
+        justify-content:  center;
+        align-items: center;    
+        margin-top: -10px;
+        li.li_footer{
+            padding: 3px;
+            
+        }
+        img.footer-img{
+            height: 55px;
+            // padding: 7px;
+            // border-style: solid;
+            
+        }
+        img.facebook{
+            padding: 10px; 
+            background-color: #0857cb;
+        }
+        img.instagram{
+            padding: 10px;
+            background-image: url(/img/colores-de-intagram.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 55px;
+        }
+        img.whatssapp{
+            padding: 10px;
+            background-color:#49de12fa;
+        }
+}
 
-    img.footer-img{
-        height: 35px;
-    }
 }
 

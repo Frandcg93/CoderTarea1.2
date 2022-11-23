@@ -221,17 +221,39 @@ p.goycochea {
 }
 footer {
   background-color: rgb(32, 27, 96);
-  height: 90px;
+  height: 142px;
   display: flex;
   justify-content: center;
-  margin-top: 75px;
+  margin-top: 166px;
+  padding-top: 24px;
   align-items: center;
 }
 footer ul.ultimo_menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
 }
-footer img.footer-img {
-  height: 35px;
+footer ul.ultimo_menu li.li_footer {
+  padding: 3px;
+}
+footer ul.ultimo_menu img.footer-img {
+  height: 55px;
+}
+footer ul.ultimo_menu img.facebook {
+  padding: 10px;
+  background-color: #0857cb;
+}
+footer ul.ultimo_menu img.instagram {
+  padding: 10px;
+  background-image: url(/img/colores-de-intagram.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55px;
+}
+footer ul.ultimo_menu img.whatssapp {
+  padding: 10px;
+  background-color: rgba(73, 222, 18, 0.9803921569);
 }
 
 /*# sourceMappingURL=estilo.css.map */
