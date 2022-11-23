@@ -68,6 +68,13 @@ h1.back-img {
   width: 320px;
 }
 
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+/*Telefono Modernos Regular*/
+@media (min-width: 402px) {
+  h1.back-img {
+    width: 421px;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -99,7 +106,6 @@ body {
   color: white;
 }
 
-/********************---FOOTER---********************/
 /********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
 @media (min-width: 640px) {
   h1 {
@@ -118,6 +124,10 @@ body {
 /********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
 /*Telefono Modernos Regular*/
 @media (min-width: 402px) {
+  .parrafomain {
+    font-size: 18px;
+    padding-top: 557px;
+  }
   .sectionmain {
     padding-top: 20px;
   }
@@ -292,7 +302,7 @@ footer ul.ultimo_menu img.facebook {
 }
 footer ul.ultimo_menu img.instagram {
   padding: 10px;
-  background-image: url(/img/colores-de-intagram.jpg);
+  background-image: url(/img/colores-de-intagram.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 55px;

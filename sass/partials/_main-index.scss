@@ -32,24 +32,6 @@ body{
     color: white;
 }
 
-/********************---FOOTER---********************/
-// footer{
-//     background-color: rgb(32, 27, 96);
-//     height: 90px;
-//     display: flex;
-//     justify-content: center;
-//     margin-top: 75px;
-//     align-items: center;
-
-//     ul.ultimo_menu{
-//         display: flex;
-//     }
-
-//     img.footer-img{
-//         height: 35px;
-//     }
-// }
-
 /********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
 @media (min-width: 640px){
     h1{
@@ -70,6 +52,11 @@ body{
 /********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
 /*Telefono Modernos Regular*/
 @media (min-width: 402px){
+    .parrafomain{
+        font-size: 18px;
+        padding-top: 557px;
+    }
+
     .sectionmain{
         padding-top: 20px;
     }

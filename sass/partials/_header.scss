@@ -83,3 +83,11 @@ h1.back-img{
     background-size: contain;
     width: 320px;
 }
+
+/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
+/*Telefono Modernos Regular*/
+@media (min-width: 402px){
+    h1.back-img{
+        width: 421px;
+    } 
+}
