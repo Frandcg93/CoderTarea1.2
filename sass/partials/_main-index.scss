@@ -74,12 +74,8 @@ body{
 /********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
 
 @media (min-width: 600px){
-    h1.back-img{
-        height: 595px;
-    }
-
     .parrafomain{
-        padding-top: 80px;
+        padding-top: 643px;
     }
 }
 
@@ -94,16 +90,23 @@ body{
 
 @media (min-width: 600px){
     .parrafomain{
-        padding-top: 90px;
+        padding-top: 643px;
     }
 }
 
 /********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
 
 @media (min-width: 1024px){
+    .parrafomain{
+        padding-top: 881px;
+        font-size: 23px;
+    }
 }
 
 
 /********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
 @media (min-width: 1200px){
+    p.parrafomain{
+        padding-top: 841px;
+    }
 }

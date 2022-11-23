@@ -70,6 +70,11 @@ h1.back-img{
     width: 320px;
 }
 
+/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
+@media (min-width: 640px){
+
+}
+
 /********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
 /*Telefono Modernos Regular*/
 @media (min-width: 402px){
@@ -78,9 +83,41 @@ h1.back-img{
     } 
 }
 
-/********************---VISTA MOBILE (min-width: 450-VERTICAL)---********************/
-@media (min-width: 450px){
+/********************---VISTA MOBILE (min-width: 460-VERTICAL)---********************/
+@media (min-width: 460px){
     h1.back-img{
         width: 460px;
     } 
+}
+
+/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
+
+@media (min-width: 600px){
+    h1.back-img{
+        height: 595px;
+        width: 600px;
+    }
+}
+
+/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+
+@media (min-width: 1024px){
+    h1.back-img{
+        background-position: center;
+        background-origin: content-box;
+        width: 100vw;
+        background-size: cover;
+        }
+    
+}
+
+
+/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+@media (min-width: 1200px){
+    h1.back-img{
+        background-position: center;
+        background-origin: content-box;
+        width: 100vw;
+        background-size: cover;
+    }
 }
