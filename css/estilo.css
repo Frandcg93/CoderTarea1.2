@@ -1,3 +1,6 @@
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 header {
   margin: 0px;
   padding: 0px;
@@ -60,60 +63,103 @@ h1 {
 }
 
 h1.back-img {
-  height: 580px;
-  background-image: url(../img/Logo1.jpg);
+  background-image: url(../../img/Logo1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 320px;
-  background-origin: content-box;
+  background-size: contain;
   width: 100vw;
+  height: 535px;
 }
 
-/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
-/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
-/*Telefono Modernos Regular*/
-@media (min-width: 402px) {
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px) {
   h1.back-img {
-    width: 421px;
+    width: 100vw;
+    height: 687px;
   }
 }
-/********************---VISTA MOBILE (min-width: 460-VERTICAL)---********************/
-@media (min-width: 460px) {
-  h1.back-img {
-    width: 460px;
-  }
-}
-/********************---VISTA MOBILE (min-width: 480-VERTICAL)---********************/
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
   h1.back-img {
-    width: 480px;
+    width: 100vw;
+    height: 662px;
   }
 }
-/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
-@media (min-width: 600px) {
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px) {
   h1.back-img {
-    height: 595px;
-    width: 600px;
+    width: 100vw;
+    height: 827px;
   }
 }
-/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px) {
+  h1.back-img {
+    width: 100vw;
+    height: 783px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
   h1.back-img {
-    background-position: center;
-    background-origin: content-box;
     width: 100vw;
-    background-size: cover;
   }
 }
-/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px) {
+  h1.back-img {
+    background-size: cover;
+    background-position-y: top;
+    width: 100vw;
+  }
+}
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1023px) {
+  h1.articulomain {
+    width: 100vw;
+  }
+}
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px) {
+  h1.back-img {
+    height: 836px;
+    width: 100vw;
+    padding-top: 170px;
+    font-size: 158px;
+    font-weight: 800;
+  }
+  h1.articulomain {
+    width: 100vw;
+  }
+}
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px) {
   h1.back-img {
-    background-position: center;
-    background-origin: content-box;
+    height: 836px;
     width: 100vw;
-    background-size: cover;
+    padding-top: 170px;
+    font-size: 158px;
+    font-weight: 800;
+  }
+  h1.back-img {
+    height: 836px;
+    width: 100vw;
   }
 }
+/*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1400px) {
+  h1.back-img {
+    background-position: center;
+    height: 836px;
+    width: 100vw;
+    padding-top: 170px;
+    font-size: 158px;
+    font-weight: 800;
+  }
+}
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 body {
   margin: 0;
   padding: 0;
@@ -145,72 +191,76 @@ body {
   color: white;
 }
 
-/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
-  h1 {
-    font-size: 90px;
-  }
   h1.back-img {
-    height: 636px;
+    width: 100vw;
   }
-  .parrafomain {
-    padding-top: 40px;
-  }
-  .articulomain {
-    padding: 20px;
+  main p.parrafomain {
+    padding-top: 880px;
+    font-size: 25px;
+    margin: 0px;
   }
 }
-/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
-/*Telefono Modernos Regular*/
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
-  .parrafomain {
-    font-size: 18px;
-    padding-top: 557px;
+  h1.back-img {
+    width: 100vw;
   }
-  .sectionmain {
-    padding-top: 20px;
+  .parrafomain {
+    padding-top: 600px;
   }
 }
-/********************---VISTA MOBILE (min-width: 480-HORIZONTAL)---********************/
+/*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
+@media (min-width: 430px) {
+  h1.back-img {
+    width: 100vw;
+  }
+  .parrafomain {
+    padding-top: 600px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
-  /*****--main--*****/
+  h1.back-img {
+    width: 100vw;
+  }
   .parrafomain {
+    padding-top: 665px;
     font-size: 20px;
-    padding-top: 615px;
   }
 }
-/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
-@media (min-width: 600px) {
-  .parrafomain {
-    padding-top: 643px;
-  }
-}
-/********************---VISTA TABLET (min-width: 800 X 600 -HORIZONTAL)---********************/
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px) {
   h1.back-img {
-    height: 793px;
+    width: 100vw;
   }
-}
-/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
-@media (min-width: 600px) {
   .parrafomain {
-    padding-top: 643px;
+    padding-top: 611px;
+    font-size: 20px;
   }
 }
-/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
-@media (min-width: 1024px) {
-  .parrafomain {
-    padding-top: 881px;
-    font-size: 23px;
-  }
-}
-/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px) {
-  p.parrafomain {
-    padding-top: 841px;
+  .parrafomain {
+    padding-top: 0px;
+    font-size: 15px;
   }
 }
-/********************---VISTA MOBIL (min-width: 320 x 640 - VERTICAL)---********************/
+/*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1400px) {
+  .parrafomain {
+    padding-top: 1400px;
+    font-size: 25px;
+  }
+}
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 body.productos {
   background-color: black;
 }
@@ -221,50 +271,190 @@ div.titulo {
   padding-bottom: 166px;
 }
 div.titulo h1.titulo_producto {
-  padding-top: 138px;
+  padding-top: 181px;
   font-size: 60px;
   font-weight: 600;
 }
 
 section.carruseles {
-  padding-top: 45px;
+  padding-top: 101px;
+  text-align: center;
 }
 section.carruseles .w-100 {
-  width: 321px;
-  height: 402px;
+  height: 225px;
 }
 section.carruseles div.a_bebidas {
-  background-color: white;
-  padding-top: 33px;
-  padding-bottom: 25px;
+  background-color: darkmagenta;
+  display: inline-block;
+  border-radius: 66px;
+  padding: 25px;
 }
-section.carruseles div.a_bebidas a h3.bebidas {
-  color: black;
-  font-size: 30px;
+section.carruseles div.a_bebidas h3 {
   font-weight: 700;
+  font-family: cursive;
+  font-size: 37px;
 }
-section.carruseles div.carrucel {
+
+div.a_bebidas:hover {
+  background-color: darkmagenta;
+  color: black;
+}
+div.a_bebidas:hover a h3.bebidas:hover {
+  color: black;
+}
+
+div.carrucel {
   padding-top: 96px;
 }
 
-/********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
-/*****--MAIN--*****/
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px) {
+  div.titulo h1.titulo_producto {
+    padding-top: 32px;
+    font-size: 76px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 272px;
+    height: 228px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px) {
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles div.a_bebidas {
+    padding: 14px;
+  }
+  section.carruseles div.a_bebidas h3 {
+    font-size: 32px;
+  }
+  section.carruseles .w-100 {
+    max-width: 272px;
+    height: 228px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+@media (min-width: 480px) {
+  section.carruseles {
+    padding-top: 0px;
+  }
+  div.titulo {
+    padding-top: 69px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 399px;
+    height: 285px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px) {
+  section.carruseles {
+    padding-top: 0px;
+  }
+  div.titulo {
+    padding-top: 200px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 447px;
+    height: 307px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px) {
+  section.carruseles {
+    padding-top: 0px;
+  }
+  div.titulo {
+    padding-top: 200px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 447px;
+    height: 307px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+@media (min-width: 1024px) {
+  section.carruseles {
+    padding-top: 0px;
+  }
+  div.titulo {
+    padding-top: 200px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 513px;
+    height: 409px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1200px) {
+  section.carruseles {
+    padding-top: 0px;
+  }
+  div.titulo {
+    padding-top: 200px;
+  }
+  section.carruseles {
+    padding-top: 0px;
+    text-align: -webkit-center;
+  }
+  section.carruseles .w-100 {
+    max-width: 513px;
+    height: 409px;
+  }
+}
+/*****--VISTA DESKTOP (min-width: 1600 x 900 - HORIZONTAL)--*****/
+@media (min-width: 1600px) {
+  div.titulo {
+    padding-top: 410px;
+  }
+  section.carruseles {
+    padding-top: 410px;
+  }
+}
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 h2.encontranos {
-  padding-top: 160px;
+  padding-top: 179px;
   text-align: center;
   font-size: 30pt;
-  font-weight: 700;
+  font-weight: 800;
   color: black;
   text-shadow: 3px 2px 6px blue, -3px -2px 6px blue;
 }
 
 a.link_ubicasion {
-  padding-top: 25px;
+  padding-top: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 p.goycochea {
   color: black;
-  padding: 30px;
   font-size: 13pt;
   margin: 0;
   text-align: center;
@@ -273,63 +463,91 @@ p.goycochea {
   border-color: darkslateblue;
 }
 
-.mapa {
-  padding-top: 70px;
-  width: 319px;
-  height: 402px;
+div.ubicasion {
+  text-align: center;
 }
 
-/********************---VISTA MOBILE (min-width: 500 x 320- HORIZONTAL)---********************/
-@media (min-width: 500px) {
-  div.ubicasion {
-    text-align-last: center;
-  }
-  .mapa {
-    width: 470px;
-  }
+.mapa {
+  padding-top: 0px;
+  width: 280px;
+  height: 273px;
 }
-/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
-@media (min-width: 402px) {
-  div.ubicasion {
-    text-align: center;
-  }
-  .mapa {
-    width: 394px;
-    height: 489px;
-  }
-}
-/********************---VISTA MOBILE (min-width: 700 x 402-HORIZONTAL)---********************/
-@media (min-width: 700px) {
-  .mapa {
-    width: 689px;
-  }
-}
-/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
+
+/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
 @media (min-width: 600px) {
+  h2.encontranos {
+    padding-top: 160px;
+  }
   .mapa {
-    width: 557px;
-    height: 652px;
+    padding-top: 0px;
+    width: 458px;
   }
 }
-/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+@media (min-width: 480px) {
+  h2.encontranos {
+    padding-top: 205px;
+  }
+  a.link_ubicasion {
+    padding-top: 60px;
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+  .mapa {
+    padding-top: 0px;
+    width: 409px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px) {
+  h2.encontranos {
+    padding-top: 186px;
+    font-size: 50px;
+  }
+  p.goycochea {
+    font-size: 14pt;
+    width: 290px;
+  }
+  .mapa {
+    padding-top: 0px;
+    width: 696px;
+    height: 379px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px) {
+  p.goycochea {
+    font-size: 14pt;
+    width: 260px;
+  }
+  .mapa {
+    padding-top: 0px;
+    width: 517px;
+    height: 407px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 1024 x 640 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
+  h2.encontranos {
+    padding-top: 186px;
+    font-size: 60px;
+  }
   .mapa {
-    width: 1003px;
+    padding-top: 0px;
+    width: 897px;
+    height: 409px;
   }
 }
-/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
-@media (min-width: 1200px) {
-  .mapa {
-    width: 1170px;
-  }
-}
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 /********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
 footer {
   background-color: rgb(32, 27, 96);
   height: 142px;
   display: flex;
   justify-content: center;
-  margin-top: 166px;
+  margin-top: 78px;
   padding-top: 24px;
   align-items: center;
 }

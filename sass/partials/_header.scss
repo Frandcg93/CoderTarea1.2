@@ -1,3 +1,6 @@
+/********************---MODO RESPONSIVE---********************/
+            /********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 header{
     margin: 0px;
     padding: 0px;
@@ -62,70 +65,114 @@ h1{
 }
 
 h1.back-img{
-    height: 580px;
-    background-image: url(../img/Logo1.jpg);
+    background-image: url(../../img/Logo1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 320px;
-    background-origin: content-box;
+    background-size: contain;
     width: 100vw;
+    height: 535px;
 }
 
-/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
+
+
+            /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px){
-
-}
-
-/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
-/*Telefono Modernos Regular*/
-@media (min-width: 402px){
     h1.back-img{
-        width: 421px;
-    } 
-}
-
-/********************---VISTA MOBILE (min-width: 460-VERTICAL)---********************/
-@media (min-width: 460px){
-    h1.back-img{
-        width: 460px;
-    } 
-}
-
-/********************---VISTA MOBILE (min-width: 480-VERTICAL)---********************/
-@media (min-width: 480px){
-    h1.back-img{
-        width: 480px;
-    } 
-}
-
-/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
-
-@media (min-width: 600px){
-    h1.back-img{
-        height: 595px;
-        width: 600px;
+        // background-position: bottom;
+        width: 100vw;
+        height: 687px;
     }
 }
 
-/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
-
-@media (min-width: 1024px){
+            /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+@media (min-width: 480px){
     h1.back-img{
-        background-position: center;
-        background-origin: content-box;
         width: 100vw;
-        background-size: cover;
-        }
-    
+        height: 662px;
+    }
+}
+
+            /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px){
+    h1.back-img{
+        width: 100vw;
+        height: 827px;
+    }
+}
+
+            /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px){
+    h1.back-img{
+        width: 100vw;
+        height: 783px;
+    }
 }
 
 
-/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
-@media (min-width: 1200px){
+            /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
     h1.back-img{
-        background-position: center;
-        background-origin: content-box;
+        
         width: 100vw;
+    }
+}
+
+            /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px){
+    h1.back-img{
         background-size: cover;
+        background-position-y: top;
+        width: 100vw;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1023px){
+    h1.articulomain{
+        
+        width: 100vw;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+    h1.back-img {
+        height: 836px;
+        width: 100vw;
+        padding-top: 170px;
+        font-size: 158px;
+        font-weight: 800;
+    }
+
+    h1.articulomain{
+        width: 100vw;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1200px){
+    h1.back-img {
+        height: 836px;
+        width: 100vw;
+        padding-top: 170px;
+        font-size: 158px;
+        font-weight: 800;
+    }
+
+    h1.back-img{
+        height: 836px;
+        width: 100vw;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1400px){
+    h1.back-img {
+        background-position: center;
+        height: 836px;
+        width: 100vw;
+        padding-top: 170px;
+        font-size: 158px;
+        font-weight: 800;
     }
 }

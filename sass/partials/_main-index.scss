@@ -1,8 +1,12 @@
+/********************---MODO RESPONSIVE---********************/
+            /********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-color: aquamarine;
+    
 }
 
 
@@ -32,82 +36,99 @@ body{
     color: white;
 }
 
-/********************---VISTA MOBIL (min-width: 640 x 320 - HORIZONTAL)---********************/
-@media (min-width: 640px){
-    h1{
-        font-size: 90px;
+
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px ) {
+    h1.back-img {
+        width: 100vw;
     }
-    h1.back-img{
-        height: 636px;
+    main{
+        p.parrafomain{
+            padding-top: 880px;
+            font-size: 25px;
+            margin: 0px;
+        }
     }
-    .parrafomain{
-        padding-top: 40px;
-    }
-    .articulomain{
-        padding: 20px;
-    }
+    
 }
 
-
-/********************---VISTA MOBILE (min-width: 402-VERTICAL)---********************/
-/*Telefono Modernos Regular*/
+            /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
-    .parrafomain{
-        font-size: 18px;
-        padding-top: 557px;
+    h1.back-img {
+        width: 100vw;
     }
-
-    .sectionmain{
-        padding-top: 20px;
+    .parrafomain{
+        padding-top: 600px;
     }
 }
 
-/********************---VISTA MOBILE (min-width: 480-HORIZONTAL)---********************/
+            /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
+@media (min-width: 430px){
+    h1.back-img {
+        width: 100vw;
+    }
+    
+    .parrafomain{
+        padding-top: 600px;
+    }
+}
+
+            /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px){
-    /*****--main--*****/
+    h1.back-img {
+        width: 100vw;
+    }
+    
     .parrafomain{
+        padding-top: 665px;
         font-size: 20px;
-        padding-top: 615px;
     }
 }
 
-
-/********************---VISTA TABLET (min-width: 600 x 800 -VERTICAL)---********************/
-
-@media (min-width: 600px){
-    .parrafomain{
-        padding-top: 643px;
-    }
-}
-
-/********************---VISTA TABLET (min-width: 800 X 600 -HORIZONTAL)---********************/
+            /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px){
-    h1.back-img{
-        height: 793px;
+    h1.back-img {
+        width: 100vw;
     }
-} 
-
-/********************---VISTA TABLET (min-width: 600 x 1024 -VERTICAL)---********************/
-
-@media (min-width: 600px){
+    
     .parrafomain{
-        padding-top: 643px;
+        padding-top: 611px;
+        font-size: 20px;
     }
 }
 
-/********************---VISTA TABLET (min-width: 1024 X 600 x - HORIZONTAL)---********************/
+            /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px){
+            
+}
 
+            /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
+            
+}
+
+            /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px){
+    
+}
+
+            /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+            
+}
+                    
+            /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1200px){
     .parrafomain{
-        padding-top: 881px;
-        font-size: 23px;
+        padding-top: 0px;
+        font-size: 15px;
     }
 }
 
-
-/********************---VISTA  DESKTOP (min-width:1200 x 617- HORIZONTAL)---********************/
-@media (min-width: 1200px){
-    p.parrafomain{
-        padding-top: 841px;
+            /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1400px){
+    .parrafomain{
+        padding-top: 1400px;
+        font-size: 25px;
     }
 }
