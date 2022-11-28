@@ -84,9 +84,18 @@ h1.back-img{
     }
 }
 
+            /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px){
+    h1.back-img {
+        background-image: url(../../img/Logo1.jpg);
+        width: 100vw;
+    }
+}
+
             /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px){
     h1.back-img{
+        background-image: url(../../img/Logo1.jpg);
         width: 100vw;
         height: 662px;
     }
