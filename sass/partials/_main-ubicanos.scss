@@ -65,6 +65,22 @@ div.ubicasion {
     }
 }
 
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px){
+    .mapa {
+        width: 343px;
+        height: 353px;
+    }
+}
+
+/*****--VISTA MOVIL  (min-width: 460 x 800 - VERTICAL)--*****/
+@media (min-width: 460px){
+    .mapa {
+        width: 410px;
+        height: 353px;
+    }
+}
+
 /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px){
     h2.encontranos {

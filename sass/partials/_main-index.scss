@@ -39,12 +39,10 @@ body{
 
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px ) {
-    main{
-        p.parrafomain{
-            padding-top: 880px;
-            font-size: 25px;
-            margin: 0px;
-        }
+    p.parrafomain{
+        padding-top: 1050px;
+        font-size: 25px;
+        margin: 0px;
     }
     
 }
@@ -52,14 +50,14 @@ body{
             /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
     .parrafomain{
-        padding-top: 600px;
+        padding-top: 642px;
     }
 }
 
             /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px){
     .parrafomain{
-        padding-top: 600px;
+        padding-top: 640px;
     }
 }
 
@@ -73,10 +71,7 @@ body{
 
             /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px){
-    .parrafomain{
-        padding-top: 611px;
-        font-size: 20px;
-    }
+
 }
 
             /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
@@ -86,7 +81,10 @@ body{
 
             /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
-            
+    p.parrafomain {
+        padding-top: 1363px;
+        font-size: 26px;
+    }
 }
 
             /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
@@ -101,16 +99,40 @@ body{
                     
             /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px){
-    .parrafomain{
-        padding-top: 0px;
-        font-size: 15px;
+    p.parrafomain {
+        padding-top: 1569px;
+        font-size: 28px;
     }
 }
 
             /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1400px){
-    .parrafomain{
-        padding-top: 1400px;
+    p.parrafomain{
+        padding-top: 1742px;
         font-size: 25px;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1600 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1600px){
+    p.parrafomain{
+        padding-top: 1940px;
+        font-size: 30px;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1700 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1700px){
+    p.parrafomain{
+        padding-top: 2024px;
+        font-size: 30px;
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1800 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1800px){
+    p.parrafomain{
+        padding-top: 2150px;
+        font-size: 30px;
     }
 }
