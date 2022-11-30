@@ -9,11 +9,30 @@ article.contacto{
     
     div.contacto-contenedor{
         padding-top: 0px;
-         
-        img.contacto-enlace{
-            width: 300px;
-            height: 169px;
+        
+        div.background{
+            background-color: gray;
+            padding-bottom: 32px;
+            padding-top: 15px;
+            // margin-bottom: 44px;
         }
+        
+        div.instagram{
+            margin-top: 62px;
+        }
+        
+        a.enlace-redes{
+            margin: 0px;
+            
+            img.contacto-enlace{
+                width: 259px;
+                height: 138px;
+                border-radius: 17px;
+            }
+        }
+        
+        
+        
     }
 }
 

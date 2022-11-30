@@ -71,90 +71,44 @@ img.clubhawai {
 
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
-  h1.back-img {
-    width: 100vw;
-    height: 687px;
+  h1 {
+    padding-top: 109px;
   }
 }
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px) {
+  h1 {
+    padding-top: 99px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
-@media (min-width: 480px) {
-  h1.back-img {
-    width: 100vw;
-    height: 662px;
-  }
-}
 /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
-@media (min-width: 800px) {
-  h1.back-img {
-    width: 100vw;
-    height: 827px;
-  }
-}
 /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
 @media (min-width: 640px) {
-  h1.back-img {
-    width: 100vw;
-    height: 783px;
+  h1 {
+    padding-top: 125px;
+    padding-bottom: 29px;
   }
 }
-/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 1024 x 640 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
-  h1.back-img {
-    width: 100vw;
+  h1 {
+    padding-top: 142px;
+    padding-bottom: 57px;
+    font-size: 76px;
   }
 }
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
-@media (min-width: 768px) {
-  h1.back-img {
-    background-size: cover;
-    background-position-y: top;
-    width: 100vw;
-  }
-}
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
-@media (min-width: 1023px) {
-  h1.articulomain {
-    width: 100vw;
-  }
-}
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
-  h1.back-img {
-    height: 836px;
-    width: 100vw;
-    padding-top: 170px;
-    font-size: 158px;
-    font-weight: 800;
-  }
   h1.articulomain {
     width: 100vw;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
-@media (min-width: 1200px) {
-  h1.back-img {
-    height: 836px;
-    width: 100vw;
-    padding-top: 170px;
-    font-size: 158px;
-    font-weight: 800;
-  }
-  h1.back-img {
-    height: 836px;
-    width: 100vw;
-  }
-}
 /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
-@media (min-width: 1400px) {
-  h1.back-img {
-    background-position: center;
-    height: 836px;
-    width: 100vw;
-    padding-top: 170px;
-    font-size: 158px;
-    font-weight: 800;
-  }
-}
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
@@ -432,9 +386,21 @@ article.contacto {
 article.contacto div.contacto-contenedor {
   padding-top: 0px;
 }
-article.contacto div.contacto-contenedor img.contacto-enlace {
-  width: 300px;
-  height: 169px;
+article.contacto div.contacto-contenedor div.background {
+  background-color: gray;
+  padding-bottom: 32px;
+  padding-top: 15px;
+}
+article.contacto div.contacto-contenedor div.instagram {
+  margin-top: 62px;
+}
+article.contacto div.contacto-contenedor a.enlace-redes {
+  margin: 0px;
+}
+article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
+  width: 259px;
+  height: 138px;
+  border-radius: 17px;
 }
 
 /********************---MODO RESPONSIVE---********************/
