@@ -457,7 +457,7 @@ div.ubicasion {
 }
 
 .mapa {
-  padding-top: 0px;
+  padding-top: 30px;
   width: 280px;
   height: 273px;
 }
@@ -468,7 +468,6 @@ div.ubicasion {
     padding-top: 160px;
   }
   .mapa {
-    padding-top: 0px;
     width: 458px;
   }
 }
@@ -483,7 +482,6 @@ div.ubicasion {
     padding-right: 105px;
   }
   .mapa {
-    padding-top: 0px;
     width: 409px;
   }
 }
@@ -512,7 +510,6 @@ div.ubicasion {
     width: 290px;
   }
   .mapa {
-    padding-top: 0px;
     width: 696px;
     height: 379px;
   }
@@ -524,7 +521,6 @@ div.ubicasion {
     width: 260px;
   }
   .mapa {
-    padding-top: 0px;
     width: 517px;
     height: 407px;
   }
@@ -536,7 +532,6 @@ div.ubicasion {
     font-size: 60px;
   }
   .mapa {
-    padding-top: 0px;
     width: 897px;
     height: 409px;
   }
