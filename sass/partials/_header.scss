@@ -62,15 +62,23 @@ h1{
     color:black;
     text-shadow: 1px 1px 4px white, -1px -1px 4px white;
     font-size: 50px;
+    background-color: black;
+    padding-bottom: 14px;
+
 }
 
-h1.back-img{
-    background-image: url(../../img/Logo1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+// h1.back-img{
+//     background-image: url(../../img/Logo1.jpg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//     width: 100vw;
+//     height: 535px;
+// }
+
+img.clubhawai{
+    margin: 0px;
     width: 100vw;
-    height: 535px;
 }
 
 
