@@ -63,7 +63,7 @@ h1 {
 }
 
 h1.back-img {
-  background-image: url(../../img/Logo1.jpg);
+  background-image: url(/img/Logo1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -81,14 +81,18 @@ h1.back-img {
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
   h1.back-img {
-    background-image: url(../../img/Logo1.jpg);
+    width: 100vw;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
+@media (min-width: 430px) {
+  h1.back-img {
     width: 100vw;
   }
 }
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
   h1.back-img {
-    background-image: url(../../img/Logo1.jpg);
     width: 100vw;
     height: 662px;
   }
@@ -201,9 +205,6 @@ body {
 
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
-  h1.back-img {
-    width: 100vw;
-  }
   main p.parrafomain {
     padding-top: 880px;
     font-size: 25px;
@@ -218,18 +219,12 @@ body {
 }
 /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px) {
-  h1.back-img {
-    width: 100vw;
-  }
   .parrafomain {
     padding-top: 600px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
-  h1.back-img {
-    width: 100vw;
-  }
   .parrafomain {
     padding-top: 665px;
     font-size: 20px;
@@ -237,9 +232,6 @@ body {
 }
 /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px) {
-  h1.back-img {
-    width: 100vw;
-  }
   .parrafomain {
     padding-top: 611px;
     font-size: 20px;
@@ -442,6 +434,23 @@ div.carrucel {
     padding-top: 410px;
   }
 }
+h1.contacto {
+  font-size: 44px;
+  padding-top: 168px;
+}
+
+article.contacto {
+  padding-top: 75px;
+  text-align: center;
+}
+article.contacto div.contacto-contenedor {
+  padding-top: 0px;
+}
+article.contacto div.contacto-contenedor img.contacto-enlace {
+  width: 300px;
+  height: 169px;
+}
+
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
