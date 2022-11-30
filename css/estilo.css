@@ -212,9 +212,6 @@ body {
 }
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
-  h1.back-img {
-    width: 100vw;
-  }
   .parrafomain {
     padding-top: 600px;
   }
@@ -276,31 +273,33 @@ body.productos {
 div.titulo {
   background-color: black;
   padding-top: 125px;
-  padding-bottom: 166px;
+  padding-bottom: 99px;
 }
 div.titulo h1.titulo_producto {
-  padding-top: 181px;
+  padding-top: 99px;
   font-size: 60px;
   font-weight: 600;
 }
 
 section.carruseles {
-  padding-top: 101px;
+  padding-top: 0px;
   text-align: center;
 }
 section.carruseles .w-100 {
   height: 225px;
+  border-radius: 20px;
 }
 section.carruseles div.a_bebidas {
   background-color: darkmagenta;
   display: inline-block;
   border-radius: 66px;
-  padding: 25px;
+  padding: 14px;
+  margin-bottom: 21px;
 }
 section.carruseles div.a_bebidas h3 {
   font-weight: 700;
   font-family: cursive;
-  font-size: 37px;
+  font-size: 30px;
 }
 
 div.a_bebidas:hover {
