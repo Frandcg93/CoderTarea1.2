@@ -6,6 +6,9 @@ header {
   padding: 0px;
   position: absolute;
   z-index: 3;
+  text-align: center;
+  background-color: #a5a5a5;
+  padding-bottom: 133px;
 }
 
 nav {
@@ -60,8 +63,9 @@ h1 {
   color: black;
   text-shadow: 1px 1px 4px white, -1px -1px 4px white;
   font-size: 50px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7490196078);
   padding-bottom: 14px;
+  width: 100vw;
 }
 
 img.clubhawai {
@@ -84,6 +88,12 @@ img.clubhawai {
 /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px) {
+  img.clubhawai {
+    width: 678px;
+  }
+}
 /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
 @media (min-width: 640px) {
   h1 {
@@ -100,14 +110,22 @@ img.clubhawai {
   }
 }
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
-/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1023 x 768 - HORIZONTAL)--*****/
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
   h1.articulomain {
     width: 100vw;
   }
+  img.clubhawai {
+    width: 825px;
+  }
 }
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1200px) {
+  img.clubhawai {
+    width: 1017px;
+  }
+}
 /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
@@ -116,7 +134,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: aquamarine;
+  background-color: rgba(128, 128, 128, 0.1803921569);
 }
 
 /********************---MAIN---********************/
@@ -127,7 +145,7 @@ body {
   padding-left: 45px;
   padding-right: 45px;
   font-weight: 700;
-  padding-top: 545px;
+  padding-top: 684px;
 }
 
 .articulomain {
@@ -154,19 +172,19 @@ body {
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
   .parrafomain {
-    padding-top: 642px;
+    padding-top: 732px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px) {
   .parrafomain {
-    padding-top: 640px;
+    padding-top: 760px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
   .parrafomain {
-    padding-top: 665px;
+    padding-top: 825px;
     font-size: 20px;
   }
 }
@@ -180,7 +198,18 @@ body {
   }
 }
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px) {
+  p.parrafomain {
+    padding-top: 1166px;
+    font-size: 25px;
+  }
+}
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px) {
+  p.parrafomain {
+    padding-top: 1296px;
+  }
+}
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px) {
   p.parrafomain {
@@ -191,7 +220,7 @@ body {
 /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1400px) {
   p.parrafomain {
-    padding-top: 1742px;
+    padding-top: 1547px;
     font-size: 25px;
   }
 }
@@ -419,6 +448,7 @@ article.contacto div.contacto-contenedor h3.parrafo {
   border: 3px solid black;
   display: inline-block;
   box-shadow: 0px 0px 10px black;
+  margin-bottom: 10px;
 }
 article.contacto div.contacto-contenedor a.enlace-redes {
   margin: 0px;
@@ -429,6 +459,46 @@ article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
   border-radius: 17px;
 }
 
+/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
+@media (min-width: 600px) {
+  article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
+    width: 335px;
+    height: 170px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px) {
+  h1.contacto {
+    font-size: 44px;
+    padding-top: 107px;
+  }
+  article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
+    width: 400px;
+    height: 190px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px) {
+  h1.contacto {
+    padding-bottom: 19px;
+    font-size: 44px;
+    padding-top: 110px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 460 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px) {
+  article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
+    width: 661px;
+    height: 256px;
+  }
+}
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+/*****--VISTA TABLETS  (min-width: 1024 x 640 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
@@ -459,6 +529,8 @@ p.goycochea {
 
 div.ubicasion {
   text-align: center;
+  background-color: gray;
+  padding-bottom: 46px;
 }
 
 .mapa {
@@ -467,8 +539,8 @@ div.ubicasion {
   height: 273px;
 }
 
-/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
-@media (min-width: 600px) {
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px) {
   h2.encontranos {
     padding-top: 160px;
   }

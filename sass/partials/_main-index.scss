@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: aquamarine;
+    background-color: #8080802e;;
     
 }
 
@@ -20,7 +20,7 @@ body{
     padding-left: 45px;
     padding-right: 45px;
     font-weight:700;
-    padding-top: 545px;
+    padding-top: 684px;
 }
 
 .articulomain{
@@ -50,21 +50,21 @@ body{
             /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
     .parrafomain{
-        padding-top: 642px;
+        padding-top: 732px;
     }
 }
 
             /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px){
     .parrafomain{
-        padding-top: 640px;
+        padding-top: 760px;
     }
 }
 
             /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px){
     .parrafomain{
-        padding-top: 665px;
+        padding-top: 825px;
         font-size: 20px;
     }
 }
@@ -89,12 +89,18 @@ body{
 
             /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
 @media (min-width: 768px){
-    
+    p.parrafomain {
+        padding-top: 1166px;
+        font-size: 25px;
+
+    }
 }
 
             /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
-            
+    p.parrafomain {
+        padding-top: 1296px;
+    }
 }
                     
             /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
@@ -108,7 +114,7 @@ body{
             /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1400px){
     p.parrafomain{
-        padding-top: 1742px;
+        padding-top: 1547px;
         font-size: 25px;
     }
 }
