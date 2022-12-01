@@ -8,7 +8,7 @@ header {
   z-index: 3;
   text-align: center;
   background-color: #a5a5a5;
-  padding-bottom: 133px;
+  padding-bottom: 106px;
 }
 
 nav {
@@ -161,12 +161,24 @@ body {
   color: white;
 }
 
+/*****--VISTA MOVIL  (min-width: 340 x 640 - VERTICAL)--*****/
+@media (min-width: 340px) {
+  .parrafomain {
+    padding-top: 725px;
+  }
+}
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
   p.parrafomain {
     padding-top: 1050px;
     font-size: 25px;
     margin: 0px;
+  }
+}
+/*****--VISTA MOVIL  (min-width: 400 x 640 - VERTICAL)--*****/
+@media (min-width: 400px) {
+  .parrafomain {
+    padding-top: 747px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
