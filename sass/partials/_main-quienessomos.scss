@@ -1,0 +1,111 @@
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
+.quienesSomos{
+    padding-bottom: 0px;
+}
+
+h1.quienesSomos{
+    background-color: rgb(0 0 0 / 88%);
+    box-shadow: 3px 10px 26px black;
+    padding-bottom: 25px;
+    padding-top: 158px;
+}
+
+section.quienesSomos{
+    padding-top: 29px;
+    article.somos{
+        margin: 0px;
+        div.p_somos{
+            margin: 0px;
+            
+            div.mis_imagenes{
+                margin: 0px;
+                img.imagenes{
+                    max-inline-size: -webkit-fill-available;
+                    padding: 27px;
+                    border: 3px solid black;    
+                    border-radius: 20px;
+                    margin: 12px;  
+                    background-color: #8080803b;
+                }
+            }
+            
+            div.miHistoria{
+                margin: 0px;
+                p.primeraHistoria{
+                    margin: 0px;
+                    font-weight: 700;
+                    text-align: center;
+                    padding: 35px;
+                    background: linear-gradient(180deg, gray, transparent);
+                }
+                
+                p.ultimaHistoria{
+                    margin: 0px;
+                    font-weight: 700;
+                    text-align: center;
+                    padding: 35px;
+                    background: linear-gradient(360deg, gray, transparent);
+                }
+            }
+            h4.teEsperamos{
+                margin: 0px;
+                text-align: center;
+                font-family: fantasy;
+                font-size: 50px;
+                padding-top: 45px;
+                color: black;
+                text-shadow: 3px 2px 8px blue, -3px -2px 8px blue;
+            }
+        }
+    }
+}
+
+// div.mis_imagenes{
+//     margin: 0px;
+//     img.imagenes{
+//         padding: 0px;
+//     }
+// }
+
+
+/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
+@media (min-width: 600px){
+
+}
+
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+@media (min-width: 480px){
+
+}
+
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px){
+
+}
+
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px){
+
+}
+
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+
+}
+
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px){
+
+}
+
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+
+}
+
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 120px){
+
+}

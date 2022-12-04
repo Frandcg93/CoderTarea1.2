@@ -519,6 +519,75 @@ article.contacto div.contacto-contenedor a.enlace-redes img.contacto-enlace {
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
+.quienesSomos {
+  padding-bottom: 0px;
+}
+
+h1.quienesSomos {
+  background-color: rgba(0, 0, 0, 0.88);
+  box-shadow: 3px 10px 26px black;
+  padding-bottom: 25px;
+  padding-top: 158px;
+}
+
+section.quienesSomos {
+  padding-top: 29px;
+}
+section.quienesSomos article.somos {
+  margin: 0px;
+}
+section.quienesSomos article.somos div.p_somos {
+  margin: 0px;
+}
+section.quienesSomos article.somos div.p_somos div.mis_imagenes {
+  margin: 0px;
+}
+section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
+  max-inline-size: -webkit-fill-available;
+  padding: 27px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 12px;
+  background-color: rgba(128, 128, 128, 0.231372549);
+}
+section.quienesSomos article.somos div.p_somos div.miHistoria {
+  margin: 0px;
+}
+section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
+  margin: 0px;
+  font-weight: 700;
+  text-align: center;
+  padding: 35px;
+  background: linear-gradient(180deg, gray, transparent);
+}
+section.quienesSomos article.somos div.p_somos div.miHistoria p.ultimaHistoria {
+  margin: 0px;
+  font-weight: 700;
+  text-align: center;
+  padding: 35px;
+  background: linear-gradient(360deg, gray, transparent);
+}
+section.quienesSomos article.somos div.p_somos h4.teEsperamos {
+  margin: 0px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 50px;
+  padding-top: 45px;
+  color: black;
+  text-shadow: 3px 2px 8px blue, -3px -2px 8px blue;
+}
+
+/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+/********************---MODO RESPONSIVE---********************/
+/********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
 h2.encontranos {
   padding-top: 179px;
   text-align: center;
