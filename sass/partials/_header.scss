@@ -8,7 +8,7 @@ header{
     z-index: 3;
     text-align: center;
     background-color: #a5a5a5;
-    padding-bottom: 106px;
+    padding-bottom: 16px;
 }
 
 nav{
@@ -89,6 +89,9 @@ img.clubhawai{
 
             /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px){
+    header {
+        padding-bottom: 0px;
+    }
     h1 {
         padding-top: 109px;
     }

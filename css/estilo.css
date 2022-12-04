@@ -8,7 +8,7 @@ header {
   z-index: 3;
   text-align: center;
   background-color: #a5a5a5;
-  padding-bottom: 106px;
+  padding-bottom: 16px;
 }
 
 nav {
@@ -75,6 +75,9 @@ img.clubhawai {
 
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
+  header {
+    padding-bottom: 0px;
+  }
   h1 {
     padding-top: 109px;
   }
@@ -145,7 +148,7 @@ body {
   padding-left: 45px;
   padding-right: 45px;
   font-weight: 700;
-  padding-top: 684px;
+  padding-top: 576px;
 }
 
 .articulomain {
@@ -165,12 +168,13 @@ body {
 @media (min-width: 340px) {
   .parrafomain {
     padding-top: 725px;
+    font-size: 16px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px) {
   p.parrafomain {
-    padding-top: 1050px;
+    padding-top: 904px;
     font-size: 25px;
     margin: 0px;
   }
@@ -178,25 +182,25 @@ body {
 /*****--VISTA MOVIL  (min-width: 400 x 640 - VERTICAL)--*****/
 @media (min-width: 400px) {
   .parrafomain {
-    padding-top: 747px;
+    padding-top: 654px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
   .parrafomain {
-    padding-top: 732px;
+    padding-top: 631px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px) {
   .parrafomain {
-    padding-top: 760px;
+    padding-top: 646px;
   }
 }
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px) {
   .parrafomain {
-    padding-top: 825px;
+    padding-top: 716px;
     font-size: 20px;
   }
 }
@@ -205,55 +209,56 @@ body {
 /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
   p.parrafomain {
-    padding-top: 1363px;
+    padding-top: 1183px;
     font-size: 26px;
   }
 }
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
 @media (min-width: 768px) {
   p.parrafomain {
-    padding-top: 1166px;
+    padding-top: 1016px;
     font-size: 25px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 @media (min-width: 1024px) {
   p.parrafomain {
-    padding-top: 1296px;
+    padding-top: 1183px;
+    font-size: 26px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px) {
   p.parrafomain {
-    padding-top: 1569px;
+    padding-top: 1366px;
     font-size: 28px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1400px) {
   p.parrafomain {
-    padding-top: 1547px;
-    font-size: 25px;
+    padding-top: 1368px;
+    font-size: 27px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1600 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1600px) {
   p.parrafomain {
-    padding-top: 1940px;
+    padding-top: 1391px;
     font-size: 30px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1700 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1700px) {
   p.parrafomain {
-    padding-top: 2024px;
+    padding-top: 1395px;
     font-size: 30px;
   }
 }
 /*****--VISTA DESKTOP (min-width: 1800 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1800px) {
   p.parrafomain {
-    padding-top: 2150px;
+    padding-top: px;
     font-size: 30px;
   }
 }
