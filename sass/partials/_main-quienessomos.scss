@@ -1,6 +1,10 @@
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
+*{
+    box-sizing: border-box;
+}
+
 .quienesSomos{
     padding-bottom: 0px;
 }
@@ -21,13 +25,14 @@ section.quienesSomos{
             
             div.mis_imagenes{
                 margin: 0px;
+                display: flex;
+                flex: 25%;
+                flex-wrap: wrap;
+                place-content: center;
+                 
                 img.imagenes{
-                    max-inline-size: -webkit-fill-available;
-                    padding: 27px;
-                    border: 3px solid black;    
-                    border-radius: 20px;
-                    margin: 12px;  
-                    background-color: #8080803b;
+                    width: 78%;
+                    margin: 13px;
                 }
             }
             
@@ -62,38 +67,63 @@ section.quienesSomos{
     }
 }
 
-// div.mis_imagenes{
-//     margin: 0px;
-//     img.imagenes{
-//         padding: 0px;
-//     }
-// }
 
 
-/*****--VISTA MOVIL  (min-width: 600 x 320 - HORIZONTAL)--*****/
-@media (min-width: 600px){
+/*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px){
+    h1.quienesSomos {
+        padding-bottom: 59px;
+    }
+}
 
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px){
+    section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
+        width: 80%;
+    }
+}
+
+/*****--VISTA MOVIL  (min-width: 800 x 402 - HORIZONTAL)--*****/
+@media (min-width: 800px){
+    section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
+        width: 43%;
+        margin: 20px;
+    }
 }
 
 /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px){
+    h1.quienesSomos {
+        padding-bottom: 55px;
+    }
 
+    section.quienesSomos article.somos div.p_somos div.miHistoria p.ultimaHistoria {
+        font-size: 20px;
+    }
 }
 
 /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px){
-
+    section.quienesSomos {
+        text-align: center;
+    }
 }
 
 /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
 @media (min-width: 640px){
-
+    h1.quienesSomos {
+        font-size: 60px;
+    }
+    section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
+        font-size: 25px;
+    }
 }
 
 /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
 
 }
+
 
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
 @media (min-width: 768px){
@@ -107,5 +137,13 @@ section.quienesSomos{
 
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 120px){
-
+    section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
+        width: 40%;
+    }
+    section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
+        font-size: 25px;
+        padding-left: 206px;
+        padding-right: 222px;
+        padding-top: 64px;
+    }
 }
