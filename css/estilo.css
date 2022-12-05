@@ -587,6 +587,12 @@ section.quienesSomos article.somos div.p_somos h4.teEsperamos {
     padding-bottom: 59px;
   }
 }
+/*****--VISTA MOVIL  (min-width: 334 x 800 - VERTICAL)--*****/
+@media (min-width: 334px) {
+  h1.quienesSomos {
+    padding-top: 106px;
+  }
+}
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
   h1.quienesSomos {
