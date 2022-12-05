@@ -29,7 +29,7 @@ section.quienesSomos{
                 flex: 25%;
                 flex-wrap: wrap;
                 place-content: center;
-                 
+                
                 img.imagenes{
                     width: 78%;
                     margin: 13px;
@@ -136,14 +136,16 @@ section.quienesSomos{
 }
 
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
-@media (min-width: 120px){
+@media (min-width: 1200px){
     section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
         width: 40%;
     }
     section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
-        font-size: 25px;
-        padding-left: 206px;
-        padding-right: 222px;
-        padding-top: 64px;
+        font-size: 20px;
+        // padding-left: 206px;
+        // padding-right: 222px;
+        // padding-top: 64px;
+        padding: 73px;
+        text-align: center;
     }
 }

@@ -628,15 +628,14 @@ section.quienesSomos article.somos div.p_somos h4.teEsperamos {
 /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
 /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
-@media (min-width: 120px) {
+@media (min-width: 1200px) {
   section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
     width: 40%;
   }
   section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
-    font-size: 25px;
-    padding-left: 206px;
-    padding-right: 222px;
-    padding-top: 64px;
+    font-size: 20px;
+    padding: 73px;
+    text-align: center;
   }
 }
 /********************---MODO RESPONSIVE---********************/
