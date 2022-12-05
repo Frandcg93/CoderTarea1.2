@@ -78,6 +78,10 @@ section.quienesSomos{
 
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
+    h1.quienesSomos {
+        padding-bottom: 43px;
+        padding-top: 116px;
+    }
     section.quienesSomos article.somos div.p_somos div.mis_imagenes img.imagenes {
         width: 80%;
     }
@@ -115,7 +119,8 @@ section.quienesSomos{
         font-size: 60px;
     }
     section.quienesSomos article.somos div.p_somos div.miHistoria p.primeraHistoria {
-        font-size: 25px;
+        font-size: 20px;
+        padding: 63px;
     }
 }
 
