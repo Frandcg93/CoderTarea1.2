@@ -20,7 +20,9 @@ body{
     padding-left: 45px;
     padding-right: 45px;
     font-weight:700;
-    padding-top: 576px;
+    padding-top: 535px;
+    padding-bottom: 43px;
+    background-color: darkgray;
 }
 
 .articulomain{
@@ -40,7 +42,7 @@ body{
 /*****--VISTA MOVIL  (min-width: 340 x 640 - VERTICAL)--*****/
 @media (min-width: 340px ) {
     .parrafomain {
-        padding-top: 725px;
+        padding-top: 542px;
         font-size: 16px;
     }
 }
@@ -48,9 +50,8 @@ body{
 /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
 @media (min-width: 640px ) {
     p.parrafomain{
-        padding-top: 904px;
-        font-size: 25px;
-        margin: 0px;
+        padding-top: 616px;
+        font-size: 20px;
     }
     
 }
@@ -58,72 +59,98 @@ body{
 /*****--VISTA MOVIL  (min-width: 400 x 640 - VERTICAL)--*****/
 @media (min-width: 400px ) {
     .parrafomain {
-        padding-top: 654px;
+        padding-top: 520px;
     }
 }
 
-            /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
     .parrafomain{
-        padding-top: 631px;
+        padding-top: 540px;
     }
 }
 
-            /*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 430 x 800 - VERTICAL)--*****/
 @media (min-width: 430px){
     .parrafomain{
-        padding-top: 646px;
+        padding-top: 565px;
+        font-size: 19px;
     }
 }
 
-            /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+/*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
 @media (min-width: 480px){
+    p.contenido {
+        font-size: 18px;
+    }
+
     .parrafomain{
-        padding-top: 716px;
+        padding-top: 635px;
         font-size: 20px;
     }
 }
 
-            /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+/*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
 @media (min-width: 800px){
-
+    p.parrafomain {
+        padding-top: 940px;
+        font-size: 21px;
+    }
 }
 
-            /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+/*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
 @media (min-width: 640px){
-            
+    p.parrafomain {
+        padding-top: 653px;
+    }
 }
 
-            /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+/*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
     p.parrafomain {
         padding-top: 1183px;
         font-size: 26px;
     }
+
+    p.contenido {
+        font-size: 20px;
+    }
 }
 
-            /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+/*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
 @media (min-width: 768px){
     p.parrafomain {
-        padding-top: 1016px;
-        font-size: 25px;
+        padding-top: 849px;
+        font-size: 21px;
+    }
 
+    p.contenido {
+        font-size: 20px;
     }
 }
 
-            /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+/*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
 @media (min-width: 1024px){
     p.parrafomain {
         padding-top: 1183px;
         font-size: 26px;
     }
+
+    p.contenido {
+        font-size: 22px;
+    }
 }
-                    
-            /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+
+/*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1200px){
     p.parrafomain {
-        padding-top: 1366px;
+        padding-top: 1110px;
         font-size: 28px;
+        padding-bottom: 125px;
+        background-color: darkgray;
+    }
+    p.contenido {
+        font-size: 20px;
     }
 }
 
