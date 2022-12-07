@@ -12,6 +12,12 @@ header {
 
 nav {
   background-color: rgb(32, 27, 96);
+  border-radius: 60px;
+  margin-top: 18px;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  justify-content: center;
 }
 
 a {
@@ -55,7 +61,7 @@ li {
 }
 
 h1.back-img {
-  padding-top: 130px;
+  padding-top: 152px;
   margin: 0px;
   text-align: center;
   font-family: cursive;
@@ -336,8 +342,15 @@ div.titulo {
   padding-bottom: 99px;
 }
 div.titulo h1.titulo_producto {
-  padding-top: 99px;
-  font-size: 60px;
+  padding-top: 130px;
+  margin: 0px;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+  font-size: 50px;
+  padding-bottom: 14px;
+  width: 100vw;
   font-weight: 600;
 }
 
@@ -503,12 +516,20 @@ div.carrucel {
   }
 }
 h1.contacto {
-  font-size: 44px;
-  padding-top: 168px;
+  padding-top: 156px;
+  margin: 0px;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+  font-size: 38px;
+  padding-bottom: 0px;
+  width: 100vw;
+  font-weight: 600;
 }
 
 article.contacto {
-  padding-top: 22px;
+  padding-top: 0px;
   text-align: center;
 }
 article.contacto div.contacto-contenedor {

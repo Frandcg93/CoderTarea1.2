@@ -13,6 +13,13 @@ header{
 
 nav{
     background-color: rgb(32, 27, 96);
+    border-radius: 60px;
+    margin-top: 18px;
+    
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: center;
 }
 
 a {
@@ -58,7 +65,7 @@ li{
 }
 
 h1.back-img{
-    padding-top: 130px;
+    padding-top: 152px;
     margin: 0px;
     text-align: center;
     font-family: cursive;
@@ -201,12 +208,4 @@ img.clubhawai{
 
             /*****--VISTA DESKTOP (min-width: 1400 x 800 - HORIZONTAL)--*****/
 @media (min-width: 1400px){
-    // h1.back-img {
-    //     background-position: center;
-    //     height: 836px;
-    //     width: 100vw;
-    //     padding-top: 170px;
-    //     font-size: 158px;
-    //     font-weight: 800;
-    // }
 }

@@ -11,9 +11,20 @@ div.titulo{
     padding-bottom: 99px;
     
     h1.titulo_producto{
-        padding-top: 99px;
-        font-size: 60px;
+        padding-top: 130px;
+        margin: 0px;
+        text-align: center;
+        font-family: cursive;
+        color:black;
+        text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+        font-size: 50px;
+        // background-color: #000000bf;
+        padding-bottom: 14px;
+        width: 100vw;
         font-weight: 600;
+        // padding-top: 99px;
+        // font-size: 60px;
+        // font-weight: 600;
     }
 }
 
