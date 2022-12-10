@@ -64,7 +64,7 @@ li{
     list-style: none;
 }
 
-h1.back-img{
+h1.back-img{                    //Titulo principal
     padding-top: 152px;
     margin: 0px;
     text-align: center;
@@ -87,7 +87,8 @@ h1.back-img{
 //     height: 535px;
 // }
 
-img.clubhawai{
+
+img.clubhawai{                  //   Imagen central      
     margin: 0px;
     width: 281px;
     border-radius: 165px;
@@ -111,6 +112,9 @@ img.clubhawai{
 
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: space-between;
+    }
     h1 {
         padding-top: 99px;
     }

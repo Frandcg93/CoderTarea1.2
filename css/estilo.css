@@ -94,6 +94,9 @@ img.clubhawai {
 }
 /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
 @media (min-width: 402px) {
+  .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: space-between;
+  }
   h1 {
     padding-top: 99px;
   }
@@ -515,6 +518,82 @@ div.carrucel {
     padding-top: 410px;
   }
 }
+div.tarjetas {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+div.tarjetas div.tarjeta_bebidas {
+  width: 330px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /*Encioerra todo el contenido dentro d la tarjeta creada */
+  margin: 20px;
+  text-align: center;
+  transition: all 0, 25s;
+  background-color: white;
+}
+div.tarjetas div.tarjeta_bebidas img.imagen_t {
+  width: 330px;
+  height: 220px;
+}
+div.tarjetas div.tarjeta_bebidas h4.titulo_tarjeta_b {
+  font-weight: 600;
+  padding-top: 30px;
+}
+div.tarjetas div.tarjeta_bebidas a.boton_de_pedido {
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: darkslategray;
+  padding: 9px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+div.tarjetas {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+div.tarjetas div.tarjeta_hamburguesa {
+  width: 330px;
+  height: 427px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /*Encioerra todo el contenido dentro d la tarjeta creada */
+  margin: 20px;
+  text-align: center;
+  transition: all 0, 25s;
+  background-color: white;
+  display: grid;
+  align-content: space-between;
+}
+div.tarjetas div.tarjeta_hamburguesa img.imagen_t {
+  width: 330px;
+  height: 220px;
+}
+div.tarjetas div.tarjeta_hamburguesa h4.titulo_tarjeta_h {
+  font-weight: 600;
+  padding-top: 5px;
+}
+div.tarjetas div.tarjeta_hamburguesa a.boton_de_pedido {
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: darkslategray;
+  padding: 9px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
 h1.contacto {
   padding-top: 156px;
   margin: 0px;

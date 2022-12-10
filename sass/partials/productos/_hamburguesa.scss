@@ -1,0 +1,51 @@
+div.tarjetas{
+    width: 100%;
+    max-width: 1200px;
+    // height: 430px; //Produce que el footer se rompa
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+        div.tarjeta_hamburguesa{
+        width: 330px;
+        height: 427px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgb(0, 0, 0, 50%);
+        overflow: hidden; /*Encioerra todo el contenido dentro d la tarjeta creada */
+        margin: 20px;
+        text-align: center;
+        transition: all 0,25s;
+        background-color: white;
+        display: grid;
+        align-content: space-between;
+        
+            img.imagen_t{
+                width: 330px;
+                height: 220px;
+            }
+
+            h4.titulo_tarjeta_h{
+                font-weight: 600;
+                padding-top: 5px;
+            }
+
+            a.boton_de_pedido{
+                font-weight: 500;
+                text-decoration: none;
+                margin-top: 10px;
+                background-color: darkslategray;
+                padding: 9px;
+                display: inline-block;
+                border-radius: 5px;
+            }
+        }
+}
+
+
+
+// p.parrafo_tarjeta{
+//     padding: 0 1rem;
+//     font-size: 12px;
+//     font-weight: 300;
+// }
