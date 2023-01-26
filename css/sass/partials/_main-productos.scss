@@ -1,0 +1,220 @@
+/********************---MODO RESPONSIVE---********************/
+            /********************------********************/
+/*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
+body.productos{
+    background-color: black;
+}
+
+div.titulo{
+    background-color: black;
+    padding-top: 125px;
+    padding-bottom: 99px;
+    
+    h1.titulo_producto{
+        padding-top: 130px;
+        margin: 0px;
+        text-align: center;
+        font-family: cursive;
+        color:black;
+        text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+        font-size: 50px;
+        // background-color: #000000bf;
+        padding-bottom: 14px;
+        width: 100vw;
+        font-weight: 600;
+        // padding-top: 99px;
+        // font-size: 60px;
+        // font-weight: 600;
+    }
+}
+
+section.carruseles{
+    padding-top: 0px;
+    text-align: center;
+    .w-100 {
+        height: 225px;
+        border-radius: 20px;
+    }
+    
+    div.a_bebidas{
+        background-color: darkmagenta;
+        display: inline-block;
+        border-radius: 66px;
+        padding: 14px;
+        margin-bottom: 21px;
+            h3{
+                font-weight: 700;
+                font-family: cursive;
+                font-size: 30px;
+            }
+        }
+    }
+
+    div.a_bebidas:hover{
+        background-color: darkmagenta;
+        color: black;
+        a h3.bebidas:hover{
+            color: black;
+        }
+    }
+    
+    div.carrucel{
+        padding-top: 96px;
+    }
+
+
+
+
+            /*****--VISTA MOVIL  (min-width: 640 x 320 - HORIZONTAL)--*****/
+@media (min-width: 640px){
+    div.titulo h1.titulo_producto{
+        padding-top: 32px;
+        font-size: 76px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 272px;
+            height: 228px;
+        }
+    }
+}
+
+            /*****--VISTA MOVIL  (min-width: 402 x 800 - VERTICAL)--*****/
+@media (min-width: 402px){
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        div.a_bebidas {
+            padding: 14px;
+        }
+        
+        div.a_bebidas h3 {
+            font-size: 32px;
+        }
+        
+        .w-100 {
+            max-width: 272px;
+            height: 228px;
+        }
+    }
+}
+
+            /*****--VISTA MOVIL  (min-width: 480 x 800 - VERTICAL)--*****/
+@media (min-width: 480px){
+    section.carruseles {
+        padding-top: 0px;
+    }
+    div.titulo {
+        padding-top: 69px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 399px;
+            height: 285px;
+        }
+    }
+}
+
+            /*****--VISTA MOVIL  (min-width: 800 x 480 - HORIZONTAL)--*****/
+@media (min-width: 800px){
+    section.carruseles {
+        padding-top: 0px;
+    }
+    div.titulo {
+        padding-top: 200px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 447px;
+            height: 307px;
+        }
+    }
+}
+
+            /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
+@media (min-width: 640px){
+    section.carruseles {
+        padding-top: 0px;
+    }
+    div.titulo {
+        padding-top: 200px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 447px;
+            height: 307px;
+        }
+    }
+}
+
+            /*****--VISTA TABLETS  (min-width: 1024 x 600 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+    section.carruseles {
+        padding-top: 0px;
+    }
+    div.titulo {
+        padding-top: 200px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 513px;
+            height: 409px;
+        }
+    }
+}
+
+            /*****--VISTA TABLETS  (min-width: 768 x 1024 - VERTICAL)--*****/
+@media (min-width: 768px){
+    
+}
+
+            /*****--VISTA DESKTOP (min-width: 1024 x 768 - HORIZONTAL)--*****/
+@media (min-width: 1024px){
+
+}
+
+            /*****--VISTA DESKTOP (min-width: 1200 x 800 - HORIZONTAL)--*****/
+@media (min-width: 1200px){
+    section.carruseles {
+        padding-top: 0px;
+    }
+    div.titulo {
+        padding-top: 200px;
+    }
+
+    section.carruseles {
+        padding-top: 0px;
+        text-align: -webkit-center;
+        .w-100 {
+            max-width: 513px;
+            height: 409px;
+        }
+    }
+}
+
+            /*****--VISTA DESKTOP (min-width: 1600 x 900 - HORIZONTAL)--*****/
+@media (min-width: 1600px){
+    div.titulo {
+        padding-top: 410px;
+    }
+
+    section.carruseles {
+        padding-top: 410px;
+    }
+    
+}

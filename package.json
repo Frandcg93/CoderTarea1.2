@@ -1,6 +1,5 @@
 {
-  "dependencies": {
-    "sass": "^1.56.1",
-    "save-dev": "^0.0.1-security"
+  "devDependencies": {
+    "sass": "^1.57.1"
   }
 }

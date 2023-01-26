@@ -1,0 +1,44 @@
+/********************---VISTA MOBILE (min-width: 320-VERTICAL)---********************/
+
+footer{
+    background-color: rgb(32, 27, 96);
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+    padding-top: 24px;
+    align-items: center;
+    
+    ul.ultimo_menu{
+        display: flex;
+        justify-content:  center;
+        align-items: center;    
+        margin-top: -10px;
+        li.li_footer{
+            padding: 3px;
+            
+        }
+        img.footer-img{
+            height: 55px;
+            // padding: 7px;
+            // border-style: solid;
+            
+        }
+        img.facebook{
+            padding: 10px; 
+            background-color: #0857cb;
+        }
+        img.instagram{
+            padding: 10px;
+            background-image: linear-gradient(to top right , yellow 10%, red 40%, blue );     // DIBUJO DE COLORES A MANO
+            background-position: center;
+            background-size: 55px;
+        }
+        img.whatssapp{
+            padding: 10px;
+            background-color:#49de12fa;
+        }
+}
+
+}
+
