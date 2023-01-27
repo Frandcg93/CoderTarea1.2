@@ -125,12 +125,6 @@ img.clubhawai {
     border-radius: 500px;
   }
 }
-/*****--VISTA MOVIL  (min-width: 992 x 768 - HORIZONTAL)--*****/
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    margin-right: 50px;
-  }
-}
 /*****--VISTA TABLETS  (min-width: 640 x 1024 - VERTICAL)--*****/
 @media (min-width: 640px) {
   h1.back-img {
@@ -338,50 +332,12 @@ body {
     font-size: 30px;
   }
 }
-/*****--VISTA MOVIL  (min-width: 992 x 768 - HORIZONTAL)--*****/
 a img.carritodecompras {
   margin: 0px;
-  height: 35px;
-  border: solid 1px black;
-  padding: 6px;
-  background-color: white;
-  margin-bottom: 10px;
-  margin-top: -16px;
+  padding-left: 0px;
+  height: 40px;
 }
 
-a img.carritodecompras:hover {
-  margin: 0px;
-  height: 45px;
-  border: solid 0px black;
-  padding: 8px;
-  background-color: rgb(174, 224, 243);
-  box-shadow: 1px 1px 10px 5px white;
-  margin-top: -16px;
-  margin-bottom: 10px;
-}
-
-@media (min-width: 992px) {
-  a.carrito {
-    margin-left: 20px;
-    position: absolute;
-    margin-right: -43px;
-  }
-  a img.carritodecompras {
-    margin: 0px;
-    height: 35px;
-    border: solid 1px black;
-    padding: 6px;
-    background-color: white;
-  }
-  a img.carritodecompras:hover {
-    margin: 0px;
-    height: 45px;
-    border: solid 0px black;
-    padding: 8px;
-    background-color: rgb(174, 224, 243);
-    box-shadow: 1px 1px 10px 5px white;
-  }
-}
 /********************---MODO RESPONSIVE---********************/
 /********************------********************/
 /*****--VISTA MOVIL  (min-width: 320 x 600 - VERTICAL)--*****/
@@ -1090,4 +1046,4 @@ footer ul.ultimo_menu img.whatssapp {
   background-color: rgba(73, 222, 18, 0.9803921569);
 }
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=main.css.map */

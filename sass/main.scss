@@ -2,6 +2,7 @@
 
 @use './partials/main-index';
 
+@use './partials/main-carritoDeCompras';
 
 @use './partials/main-productos';
 
@@ -19,7 +20,5 @@
 @use './partials/main-quienessomos';
 
 @use './partials/main-ubicanos';
-
-@use './partials/main-carritoDeCompras';
 
 @use './partials/footer';
